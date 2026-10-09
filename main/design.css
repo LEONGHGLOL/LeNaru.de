@@ -1,0 +1,19 @@
+
+.LeNarude {
+    text-align: center;
+    margin: top 0px;
+    color: rgb(5, 221, 250);
+}
+
+.Github {
+    position: absolute;
+    left: 30%;
+    right: 500px;
+    top: 100px;
+
+ 
+}
+
+body {
+    background-color: gray;
+}
