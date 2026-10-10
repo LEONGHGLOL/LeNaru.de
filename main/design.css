@@ -43,6 +43,6 @@ footer
 .discord {
   display: flex;
     left: 100%;
-    right: 500px;
-    top: 90px;
+    right: 100px;
+    top: 10px;
 }
