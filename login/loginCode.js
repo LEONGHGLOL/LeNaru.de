@@ -1,5 +1,5 @@
-const correctUsername = "LeNaru"
-const correctPassword = "LEONGHGLOL"
+const correctUsername = "Name"
+const correctPassword = "Password"
 
 function login() {
     const username =
