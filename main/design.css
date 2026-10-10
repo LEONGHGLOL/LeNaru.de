@@ -5,12 +5,18 @@
     color: rgb(5, 221, 250);
 }
 
+.Github img {
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
 .Github {
     position: absolute;
-    left: 30%;
+    left: 15%;
     right: 500px;
-    top: 100px;
+    top: 90px;
 
+    
  
 }
 
@@ -23,4 +29,5 @@
 
 body {
     background-color: gray;
+
 }
