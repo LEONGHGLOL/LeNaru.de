@@ -14,6 +14,13 @@
  
 }
 
+.impressum {
+    position: absolute;
+    left: 97%;
+    right: 100px;
+    top: 0px;
+}
+
 body {
     background-color: gray;
 }
