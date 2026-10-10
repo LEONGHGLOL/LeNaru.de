@@ -15,9 +15,6 @@
     left: 15%;
     right: 500px;
     top: 90px;
-
-    
- 
 }
 
 .impressum {
@@ -27,7 +24,14 @@
     top: 0px;
 }
 
+.discord {
+  display: flex;
+    left: 100%;
+    right: 500px;
+    top: 90px;
+}
+
 body {
-    background-color: gray;
+    background-color:rgb(8, 13, 49);
 
 }
