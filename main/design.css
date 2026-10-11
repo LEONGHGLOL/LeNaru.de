@@ -1,17 +1,17 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body
-{
+
+body {
     margin: 0 auto;
     background-color: rgb(10, 10, 46);
 }
+
 .LeNarude {
     text-align: center;
-    margin: top 0px;
+    margin-top: 0px;
     color: rgb(5, 221, 250);
 }
 
@@ -27,29 +27,46 @@ body
     top: 90px;
 }
 
-footer
-{
+footer {
     justify-content: center;
     align-items: center;
-
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
 }
 
-
-
 .discord {
-  display: flex;
+    display: flex;
     left: 100%;
     right: 100px;
     top: 10px;
 }
 
 .projekts {
-position: absolute;
-    left: 15%;
-    right: 500px;
-    top: 50px;
+    position: absolute;
+    left: 25%;
+    right: 450px;
+    top: 550px;
+}
+
+.projekts a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2b1055;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: 'Press Start 2P', monospace;
+}
+
+.projekts a:hover {
+    background-color: #1a0633;
+    border-color: #d8b4fe;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(216, 180, 254, 0.5);
 }
