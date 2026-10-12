@@ -1,4 +1,5 @@
 * {
+    color: white;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +7,7 @@
 
 body {
     margin: 0 auto;
-    background-color: rgb(10, 10, 46);
+    background-color: rgb(67, 67, 217);
 }
 
 .LeNarude {
@@ -15,19 +16,10 @@ body {
     color: rgb(5, 221, 250);
 }
 
-.Github img {
-    transition: transform 0.3s ease;
-    transform: scale(1.1);
-}
-
-.Github {
-    position: absolute;
-    left: 15%;
-    right: 500px;
-    top: 90px;
-}
-
 footer {
+    background-color: rgb(10, 10, 70);
+    padding: 10px;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -36,27 +28,18 @@ footer {
     width: 100%;
 }
 
-.discord {
+.projekts a, .GitHub a, .discord a {
     display: flex;
-    left: 100%;
-    right: 100px;
-    top: 10px;
-}
-
-.projekts {
-    position: absolute;
-    left: 25%;
-    right: 450px;
-    top: 550px;
-}
-
-.projekts a {
-    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
     text-decoration: none;
     background-color: #2b1055;
     color: #ffffff;
     font-size: 16px;
-    padding: 12px 24px;
     border: 2px solid transparent;
     border-radius: 8px;
     cursor: pointer;
@@ -64,9 +47,31 @@ footer {
     font-family: 'Press Start 2P', monospace;
 }
 
-.projekts a:hover {
+/*--------------Hover---------------*/
+
+.projekts a:hover, .GitHub a:hover, .discord a:hover {
     background-color: #1a0633;
     border-color: #d8b4fe;
     transform: scale(1.1);
     box-shadow: 0 0 15px rgba(216, 180, 254, 0.5);
+}
+
+/*--------------position-------------------*/
+
+.GitHub {
+    position: absolute;
+    left: 550px;
+    top: 250px;
+}
+
+.projekts {
+    position: absolute;
+    left: 850px;
+    top: 250px;
+}
+
+.discord {
+    position: absolute;
+    left: 1150px;
+    top: 250px;
 }
