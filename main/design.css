@@ -7,7 +7,7 @@
 
 body {
     margin: 0 auto;
-    background-color: rgb(67, 67, 217);
+    background-color: rgb(17, 17, 56);
 }
 
 .LeNarude {
@@ -28,50 +28,16 @@ footer {
     width: 100%;
 }
 
-.projekts a, .GitHub a, .discord a {
+.buttons {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    width: 250px;
-    height: 250px;
-    text-decoration: none;
-    background-color: #2b1055;
-    color: #ffffff;
-    font-size: 16px;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    font-family: 'Press Start 2P', monospace;
+    gap: 300px;
+      
 }
 
-/*--------------Hover---------------*/
-
-.projekts a:hover, .GitHub a:hover, .discord a:hover {
-    background-color: #1a0633;
-    border-color: #d8b4fe;
-    transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(216, 180, 254, 0.5);
-}
-
-/*--------------position-------------------*/
-
-.GitHub {
-    position: absolute;
-    left: 550px;
-    top: 250px;
-}
-
-.projekts {
-    position: absolute;
-    left: 850px;
-    top: 250px;
-}
-
-.discord {
-    position: absolute;
-    left: 1150px;
-    top: 250px;
+.button {
+    background-color: rgb(17, 11, 51);
+    padding: 10px;
+      text-decoration: none;
 }

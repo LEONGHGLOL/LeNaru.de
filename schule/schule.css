@@ -1,0 +1,42 @@
+
+/*---------------position-----------*/
+
+.englisch {
+    position: absolute;
+    left: 800px;
+    top: 300px;
+}
+
+/*---------HOVER------------*/
+
+.englisch a:hover {
+    background-color: #1a0633;
+    border-color: #d8b4fe;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(216, 180, 254, 0.5);
+}
+
+/*--------------design--------------------*/
+
+.englisch a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    text-decoration: none;
+    background-color: #2b1055;
+    color: #ffffff;
+    font-size: 16px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-family: 'Press Start 2P', monospace;
+}
+
+body {
+    background-color: #1a0633;
+}
