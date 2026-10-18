@@ -1,0 +1,129 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0b0b12;
+    color: white;
+    font-family: 'Press Start 2P', monospace;
+    text-align: center;
+}
+
+.hadder {
+    padding: 50px 20px;
+}
+
+.LeNarude {
+    font-size: clamp(20px, 4vw, 40px);
+    color: white;
+    text-shadow: 0 0 10px #7c3cff;
+    transition: 0.3s ease;
+}
+
+.LeNarude:hover {
+    text-shadow: 0 0 20px #9b6dff;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 30px 15px;
+}
+
+.button {
+    background: linear-gradient(135deg, #171727, #252044);
+    border: 2px solid #7547ff;
+    border-radius: 12px;
+    padding: 18px 25px;
+    min-width: 220px;
+    box-shadow: 0 0 10px #7547ff33;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #292044, #402a70);
+    box-shadow: 0 0 25px #7547ff99;
+    border-color: #a78bfa;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    line-height: 1.8;
+    display: block;
+    transition: color 0.2s ease;
+}
+
+.button:hover a {
+    color: #cbbaff;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
+
+.impressum {
+    display: inline-block;
+    padding: 12px 20px;
+    border: 2px solid #7547ff;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #171727, #252044);
+    box-shadow: 0 0 10px #7547ff33;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    cursor: pointer;
+}
+
+.impressum:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #292044, #402a70);
+    box-shadow: 0 0 25px #7547ff99;
+}
+
+.impressum a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.impressum:hover a {
+    color: #cbbaff;
+}
+
+footer {
+    flex-basis: 100%;
+    margin-top: 30px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+footer a {
+    transition: color 0.2s ease;
+}
+
+footer a:hover {
+    color: #a78bfa !important;
+    text-decoration: underline !important;
+}
+
+@media (max-width: 600px) {
+    .buttons {
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .button {
+        width: min(100%, 320px);
+    }
+}
+
+/*---CSS geschrieben von CHATGPT!---*/
